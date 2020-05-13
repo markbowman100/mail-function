@@ -1,0 +1,22 @@
+{
+  "name": "mail-function",
+  "version": "1.0.0",
+  "description": "Simple nodejs app to send email on HTTP request",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markbowman100/mail-function.git"
+  },
+  "author": "Mark Bowman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markbowman100/mail-function/issues"
+  },
+  "homepage": "https://github.com/markbowman100/mail-function#readme",
+  "dependencies": {
+    "nodemailer": "^6.4.6"
+  }
+}

@@ -2,6 +2,10 @@
 const nodemailer = require("nodemailer");
 
 exports.sendEmail = (req, res) => {
+
+  res.set('Access-Control-Allow-Origin', 'https://reunitedanddivided.com');
+  res.set('Access-Control-Allow-Credentials', 'true');
+
   let name = req.body.name;
   let email = req.body.email;
   let subject = req.body.subject;
